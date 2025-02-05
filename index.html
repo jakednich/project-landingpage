@@ -9,30 +9,72 @@
 
 <body>
     <div class="container"> <!-- Whole body container -->
-        <div class="header"> <!-- Header container. Only logo and links-->
-            <a class="logo">Belle the Golden Retriever</a>
+        <nav class="header"> <!-- Header container. Only logo and links-->
+            <a class="logo" href="index.html">Belle the Golden Retriever</a>
             <ul class="top-links">
-                <li>About</li>
-                <li>Contact</li>
-                <li>FAQ</li>
-                <li>Give a treat</li>
+                <li><a class="nav-links" href="#">About</a></li>
+                <li><a class="nav-links" href="#">Contact</a></li>
+                <li><a class="nav-links" href="#">FAQ</a></li>
+                <li><a class="nav-links" href="#">Give a treat</a></li>
             </ul>
-        </div>
+        </nav>
+        
         <div class="intro"> <!-- Container first image, text blurb, and sign up button-->
             <div class="intro-left">
-            <h1>This dog is awesome</h1>
-            <p>This is Belle. She is a two year old golden retriever and she loves dinner and play time.</p>
-            <button class="sign-up">Sign up!</button>
+                <div class="intro-heading">This Dog is Awesome!</div> 
+                <div class="intro-p">This is Belle. She is a two year old golden retriever and she loves dinner and play time.</div>
+                <button class="sign-up">Sign up!</button>
             </div>
             <div class="intro-right">
                 <img src="assets/sleepy pup.JPEG" alt="sleepy belle" height="300" width="auto">
             </div>
 
-<!-- Need to fill in this section with html before continuing. Placeholder formatting for the rest of the site -->
-        <div class="content-top"></div> <!--Beginning of content below the introduction information and the header-->
-        <div class="content-middle"></div>
-        <div class="content-bottom"></div>
-        <div class="footer"></div>
+        <!-- section one -->
+        <div class="content-one">
+            <h1 class="c1-header">Random Information about Belle</h1>
+            <div class="pictures">
+                <div class="pic-text">
+                    <img src="assets/couch dog.JPEG" height="200" width="auto">
+                    <div class="text 1">Belle doesn't sit like normal dogs. She finds funny ways to get comfortable all of the time.</div>
+                </div>
+                <div class="pic-text">
+                    <img src="assets/festive belle.JPEG" height="200" width="auto">
+                    <div class="text 2">She hates dressing up for the holidays, but she looks good doing it!</div>
+                </div>
+                <div class="pic-text">
+                    <img src="assets/so hungry.JPEG" height="200" width="auto">
+                    <div class="text 3">She is the master of puppy dog eyes. This is how she sits when she is begging for her dinner.</div>
+                </div>
+                <div class="pic-text">
+                    <img src="assets/tongues out.JPEG" height="200" width="auto">
+                    <div class="text 4">Sometimes she likes to rub it in when she gets to nap and I don't. She sticks her tongue out at me all the time!</div>
+                </div>
+            </div>
+        </div> 
+
+        <!-- section two -->
+        <div class="content-two">
+            <div class="quote">
+                <div class="quote-text">No matter how little money and how few posessions you own, having a dog makes you rich </div>
+                <div class="author">-Louis Sabin</div>
+            </div>
+        </div>
+
+        <!-- section three-->
+        <div class="content-three">
+            <div class="c2a">
+                <div class="c2a-text">
+                    <div class="c2a-header">Call to action! It's Time!</div>
+                    <div class="c2a-p">Sign up for out product by clikcing that button right over there!</div>
+                </div>
+                <button class="c2a-sign-up">Sign up</button>
+            </div>
+
+        </div>
+
+        <!-- footer -->
+        <div class="footer">
+            <div class="text">This is the footer of my first website written from scratch</div>
         </div>
 
     </div>
