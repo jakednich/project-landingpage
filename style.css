@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* GLOBALS */
+* {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    border-radius: 5px;
+}
+
+
+
+/* Header Style */
+header {
+    background-color: #1f2937;
+    padding: 10px 200px 100px 200px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    /* Unsure if I need those ^ but will keep it there in case */
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+a:hover {
+    color: goldenrod;
+}
+
+.intro {
+    display: flex;
+    padding-top: 100px;
+    color: #e5e7eb;
+    gap: 30px;
+}
+
+.intro-left {
+
+}
+
+.intro-title {
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.intro-para {
+    padding: 10px 0px 10px 0px
+}
+
+.b1 {
+    background-color:#3882f6;
+    color: #e5e7eb;
+    width: 100px;
+    box-shadow: none;
+    padding: 5px 25px 5px 25px;
+}
+
+.intro-right {
+    width: 800px;
+    height: 200px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main Content */
+main {
+    background-color: white;
+}
+
+
+/* Quote Section */
+.quote {
+    background-color: #e5e7eb;
+}
+
+
+/* Sign Up Section */
+.sign-up {
+    background-color: white;
+}
+
+
+/* Footer Section */
+footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+
+}
